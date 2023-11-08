@@ -1,0 +1,124 @@
+{
+    "Skincare": [
+        {
+            "img": "https://m.media-amazon.com/images/I/51Xe8aMVP7L._SR210,210_FMpng_.png",
+            "name": "suncream",
+            "price": 160,
+            "category": "Sun Protection"
+        },
+        {
+            "img": "https://m.media-amazon.com/images/I/51QjCv5eHSL._SR210,210_FMpng_.png",
+            "name": "Moisturizer",
+            "price": 200,
+            "category": "Sun Protection"
+        },
+        {
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1655149220-Soothing-Cleanser-3606000463660-SkinCeuticals.jpg?crop=0.667xw:1xh;center,top&resize=980:*",
+            "name": "Cleansers",
+            "category": "Sun Protection",
+            "price": 300
+        },
+        {
+            "img": "http://t2.gstatic.com/images?q=tbn:ANd9GcRDBzg-WQit9IcUoKJ_ZmzAUnI_3lsgPcUXJy6JrFtU0klX28NN",
+            "name": "Facewash",
+            "price": 450,
+            "category": "Sun Protection"
+        },
+        {
+            "img": "http://t3.gstatic.com/images?q=tbn:ANd9GcTXiOINpXyVYqJzYHB1SXkpG5nelZtBjzzLJ__sHM9LcB82mdVP",
+            "name": "Night Cream",
+            "price": 200,
+            "category": "Sun Protection"
+        },
+        {
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1628533501-968c53c1-32c4-45f4-be61-197d965ce324-1-3cb7e214ead8a04f60725965f112564a-1628533479.jpg?crop=1xw:0.9615xh;center,top&resize=980:*",
+            "category": "Sun Protection",
+            "name": "Eye Cream",
+            "price": 500
+        },
+        {
+            "img": "http://t2.gstatic.com/images?q=tbn:ANd9GcRm3IOlS09OCILP69_URfEdI0KXB6S94N48JfYpz_CrX_DtcYw5",
+            "name": "Vitamin C",
+            "price": 500,
+            "category": "Sun Protection"
+        },
+        {
+            "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQlV6Ac3aHA8rUKFB8sHNGpi_H8cga6nAoaqi5Lk808l88eC5D3Nc-iKe7muPG7Q6VgKH_1gOM7MM9VkV6qEmklHTMfrcrXW04Nl-w1pHRnXe5HAT9_vFXNGMYh2xe33pN1X1I64oZr&usqp=CAc",
+            "name": "Whiton",
+            "price": 380,
+            "category": "Sun Protection"
+        },
+        {
+            "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTcnvRwf-l-M17XHw72xVe6-E_YbLOCP_b3bCL3FnC6QjFpIHYVvY6bNCghHWY8dN5Fd0d3RTkTNb1KQ3mDZJTy36u9JI4EebbOIM8qc1CSr1-itRKgGRVs6QX4YUPCI1IlSahzgqh_&usqp=CAc",
+            "name": "LucmeCream",
+            "price": 380,
+            "category": "Sun Protection"
+        },
+        {
+            "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQmM99eYckgsJ48wM-EDpTghbelSn1p_hhicdw1x3qOAvep3zPZ1xQnIkGpTbwy1LPhRwEyzB1EwowCR8pJxyNHbZSdkDEF01XAB-AjPHTc&usqp=CAE",
+            "name": "Manage sugar",
+            "price": 200,
+            "category": "Moisturizers"
+        },
+        {
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT6CNAD9lwuVaTpPYk4IM5hVeRmTbE1Nv-a9hCABtZ2zxFEmWbm5jYXLMzM2tNvQZ1T0qfXnEFq3y-DORIpn2BM8IFqe_bmqm9J9C276iyIcCO8kQb_1XAFeg&usqp=CAE",
+            "name": "blood pressure",
+            "price": 1000,
+            "category": "Moisturizers"
+        },
+        {
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQXaq97FGJj8uGrzY3Hqx7fclp060iPLdims1VD7yxC-byT6WVINy-ox-mznLFkYqDzEP8zK0eZAS3ANUXa65jhE2LBCN3HAJ9Ssj1bDDofoEsNF2d9dy2NSQ&usqp=CAE",
+            "name": "electronic heating pad",
+            "price": 500,
+            "category": "Moisturizers"
+        },
+        {
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQPdoNaxjlEDYbwUu_WN-YyEm0yiBznJ8zJBtutunXZRheLbgE5S5B6vJHIIlqRd1SbO5l_w7H-GusHz9TE31t5M-5xGQfCLSqEzSheNC_DgX7oRBPkJYpu&usqp=CAE",
+            "name": "Sugar check",
+            "price": 1000,
+            "category": "Moisturizers"
+        },
+        {
+            "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSV9gAk32x4-zmhljlTHUu3kZjo5J0qP6oHCS-NLRo6RtXt-zvnlZ0UhQJPXpZSunCY3lFjxjiutwKuPZPbzl0UZhqNbFtxE0tzyfk3iUm3UYY6q_9J5uTb&usqp=CAE",
+            "name": "Tres Care C303 Smart Health Ban",
+            "price": 1000,
+            "category": "Moisturizers"
+        },
+        {
+            "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTgN5in2oLSPFEQ7AEq69CuPtuk9l_IgG28484cOYOFY5zUYndBzspwJDrb_43xxNJq-1VykUsxx0RepuTz3gAJ__E6gIkVTsK-y1JU-f7SZclhn3eqiZ-HDg&usqp=CAE",
+            "name": "Costir oil",
+            "price": 300,
+            "category": "Patanjalistore"
+        },
+        {
+            "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ5gdlLTXyBRxvLGPZwWLxXU9wj9M44dxme40ORZGnJI0UegPpJjE5vo2aJzoF4bquf_DpcxRgg5hjlTDQCHZePYH2ant4jXHIgudZjQSk&usqp=CAE",
+            "name": "Honey",
+            "price": 100,
+            "category": "Patanjalistore"
+        },
+        {
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRd_qZLcS2zYOmbMZK0v7S-P16QsRnO-V9TcjwGDgVBwzc9fXMGr3MGbOJn11JOM9SIM8MIdDa0rOHpEv6gOmYt17Uyz3xvVLBf9HIadJwKqb0HmsMXzdjzqA&usqp=CAE",
+            "name": "Patanjali Cow Ghee 1 L",
+            "price": 500,
+            "category": "Patanjalistore"
+        },
+        {
+            "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS2C1lCnTTVPSp3vI3aIVwbAubqbnRQ894UzMzcostRVxg4gjGsNNUZVkP6-Bgr0UF1t-Ccp3NT2hGPxGQkLdKFCQqPrxcu9VXi3P82Cns5QjeTHwo85sQFEQ&usqp=CAE",
+            "name": "Fever Reducer",
+            "price": 150,
+            "category": "Cleansers"
+        },
+        {
+            "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRTHWCVM8S-Y7SemNuEl5G0YxGNpCMRBUYpKoaHLx8G9Vjow_3Xz9npvGb-Ad3ve5ni4f3PnpsODVMqWBFdcm5iZwgtx1x2&usqp=CAE",
+            "name": "Sherdan",
+            "price": 100,
+            "category": "Cleansers"
+        },
+        {
+            "category": "Cleansers",
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQVq8xk-Y1R9TrtuIQA_Gt8SQ1MqleaHe1-h795qMXogWhclfkRUZqP7zk4XYRHWdDM12p3WDvsqA7tu6tRVrgyxVacKrY-Z_EgJlcOUWjy7nrrNxGVioQ5Bg&usqp=CAE",
+            "name": "Sumo L",
+            "price": 160
+        }
+    ]
+}

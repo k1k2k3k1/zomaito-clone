@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Features :-
+
+ // Handle filter by category
+  const handleFilterCategory = (category) => {
+    setSelectedCategory(category);
+
+    const filtered = productData.filter(
+      (product) => category === "" || product.category === category
+    );
+    setFilteredProducts(filtered);
+  };

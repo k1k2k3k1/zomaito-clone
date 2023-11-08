@@ -1,38 +1,304 @@
-.App {
+.navbar {
+  background-color: #979b9c;
+  color:  black;
+  padding: 10px; 
+  display: flex; /* Flex layout for alignment */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Vertical alignment */
+  opacity: 0.8;
+  
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 10px; /* Margin between links */
+  font-size: 22px;
+  font-weight: bold;
+}
+.custom-carousel {
+  height: 450px; /* Set the desired height here */
+  width: 100%;
+}
+.header{
+  font-size: 3rem;
+  color: #0f0002;
+}
+.paira{
+  font-size: 1rem;
+  color: #0f0002;
+}
+.heading P{
+  margin: 3vmax;
+  color: rgb(77, 77, 77);
+  font-size: 2.5vmax;
+  font-family:   Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+ margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+.product-box {
+  
+  margin: 45px;
+  padding: 10px;
+  border: 0.3px solid white;
+  color: hsl(0, 100%, 3%);
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2); 
+  
+}
+.product-box p{
+   padding: 2%;
+   line-height: 0%
+}
+ 
+
+#btn{
+  display: block;
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 1%;
+  box-shadow: 0px 0px 5px rgba(246, 210, 210, 0.2); 
+}
+
+/* Basic styling for the cart table */
+.cart {
+  overflow-x: auto;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #f2f2f2;
+}
+
+.cart-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cart-table tr:hover {
+  background-color: #ddd;
+}
+
+.cart-table button {
+  color: hsl(0, 89%, 45%);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cart-table button:hover {
+  background-color: #701bd8;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+  .cart-table th,
+  .cart-table td,.cart ,.cart-table button {
+    overflow-x: scroll;
+     margin: 0%;
+      flex: wrap;
+       flex-direction: column;/* Add horizontal scroll for the table */
+      padding: 0%;
+      .imge{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: auto;
+
+      }
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.main {
+  display: flex;
+  border: 1px solid #000;
+  height: 24rem;
+  width: 48rem;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow-y: hidden;
+}
+
+.box {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.box input {
+  width: 90%;
+  display: flex;
+  margin-left: 4%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 3%;
+  line-height: 3px;
+}
+
+.box button {
+  display: block;
+  margin-left: 4%;
+  margin-right: 25%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  padding: 2%;
+  background-color: rgb(13, 172, 119);
+  width: 90%;
+}
+
+/* Media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    height: auto; /* Allow height to adjust based on content */
+    width: auto; /* Adjust width for smaller screens */
+    margin: 3% auto; /* Center the container horizontally */
+  }
+
+  .box {
+    margin: 10px 0;
+  }
+
+  .box input {
+    margin: 5% auto;
+    width: 100%;
+  }
+
+  .box button {
+    margin: 5% auto;
+    width: 100%;
+  }
+}
+
+.box h2{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 1%;
+}
+.link{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.imge{
+  text-align: center;
+}
+
+.checkout-button {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  border: #000;
+}
+.button-container {
+  
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.checkout-button button {
+  display: block;
+  background-color: rgb(13, 172, 119);
+  width: 370px;
+  padding: 20px;
+}
+.order-summary h2{
+justify-content: center;
+text-align: center;
+color: #000;
+font-size: 36px;
+line-height: 1.5; /* Set line spacing to 1.5 times the font size */
+ white-space: pre-line; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkout-button img {
+  max-width: 100%;
+  height: auto;
 }
+.order{
+  line-height: 1.8; /* Set line spacing to 1.5 times the font size */
+ white-space: pre-line; 
+ text-align: center;
+}
+
+/* Add styles for the container */
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+input{
+  background-color: #030bfc;
+  color: #fafafa;
+  line-height: 1px;
+  font-weight: bold;
+  font-size: larger;
+  border: none;
+  text-align: center;
+}
+/* Add styles for the buttons */
+.category-button{
+  padding: 0px;
+  margin: 0px;
+  background-color:#030bfc;
+  color: #fafafa;
+  border: none;
+  cursor: pointer;
+  line-height: 1px;
+  font-weight: bold;
+  font-size: larger;
+  display: block;
+  width: 150px;
+  height: 40px;
+}
+
+.category-button:hover {
+  background-color: #c41212;
+}
+input:hover {
+  background-color: #c41212;
+}
+.text-center{
+  text-align: center;
+}
+
+
+
+
+
+
